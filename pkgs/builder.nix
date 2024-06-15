@@ -26,7 +26,7 @@
     lib.evalModules {
       modules = rawModules;
       inherit specialArgs;
-      _modules.check = false;
+      config._modules.check = false;
     },
   title ? "My Option Documentation",
   templatePath ? ./assets/default-template.html,
